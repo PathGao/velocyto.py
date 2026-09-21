@@ -40,7 +40,7 @@ setup(
     version=__version__,
     packages=find_packages(),
     install_requires=['numpy>=1.19.5,<2.5',
-                      'scipy>=1.5.3,<1.18',
+                      'scipy>=1.5.3,!=1.16.*,<1.18',
                       'cython>=0.29.32,<4',
                       'numba>=0.50.1,<0.68',
                       'matplotlib>=3.5.3,<3.11',
